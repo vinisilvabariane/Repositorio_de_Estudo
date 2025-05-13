@@ -1,13 +1,17 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
+    <v-app-bar class="border-b" flat :elavation="17">
+      <template v-slot:prepend>
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      </template>
+      <v-app-bar-title>Estudando Componentes em Vuetify</v-app-bar-title>
+    </v-app-bar>
 
-    <AppFooter />
+    <v-main>
+    </v-main>
   </v-app>
 </template>
 
 <script setup>
-  //
+//
 </script>
