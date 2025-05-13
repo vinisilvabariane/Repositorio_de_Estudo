@@ -1,42 +1,28 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
 
-      //3 escopos: global, função e o bloco
+//3 escopos: global, função e o bloco
 
-      var serie = 'Friends'
+var serie = 'Friends'
 
-      //escopo de bloco
-      if (true) {
-        var serie2 = 'Game of Thrones'
-        document.write(serie)
-      }
+//escopo de bloco
+if (true) {
+  var serie2 = 'Game of Thrones'
+  document.write(serie)
+}
 
-      document.write(serie2)
+document.write(serie2)
 
 
 
-      document.write('<br />')
+document.write('<br />')
 
-      function x() {
+function x() {
 
-        var serie3 = 'The Walking Dead'
-        document.write(serie)
-        document.write(serie2)
-      }
+  var serie3 = 'The Walking Dead'
+  document.write(serie)
+  document.write(serie2)
+}
 
-      x()
+x()
 
-      document.write('<br />')
-      document.write(serie3)
-
-    </script>
-    
-  </head>
-
-  <body>
-  </body>
-</html>
+document.write('<br />')
+document.write(serie3)

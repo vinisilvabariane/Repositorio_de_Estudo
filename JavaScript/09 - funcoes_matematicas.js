@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
 
-      var x = Math.random()
-      document.write(x)
-
-    </script>
-    
-  </head>
-
-  <body>
-  </body>
-</html>
+var x = Math.random()
+document.write(x)

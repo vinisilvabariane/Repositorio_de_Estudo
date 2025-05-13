@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
 
-      var exibirSaudacao = function(nome) {
-        document.write('Olá ' + nome + ', tudo bem?')
-      }
+var exibirSaudacao = function (nome) {
+  document.write('Olá ' + nome + ', tudo bem?')
+}
 
-      exibirSaudacao('Jorge')
+exibirSaudacao('Jorge')
 
-    </script>
-    
-  </head>
-
-  <body>
-  </body>
-</html>

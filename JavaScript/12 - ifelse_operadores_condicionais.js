@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <script>
+var nota = prompt('Digite a nota do aluno:')
+var media = 7
 
-      var nota = prompt('Digite a nota do aluno:')
-      var media = 7
+if (nota >= media) {
+  document.write('Aprovado')
 
-      if (nota >= media) {
-        document.write('Aprovado')
-      
-      } else { 
-        document.write('Reprovado')
-      
-      }
+} else {
+  document.write('Reprovado')
 
-    </script>
-  </head>
-
-  <body>
-  </body>
-</html>
+}

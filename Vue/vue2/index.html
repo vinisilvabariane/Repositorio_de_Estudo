@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue2 - Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> <!-- CDN mais segura -->
+</head>
+
+<body>
+    <div id="app">
+        {{ mensagem }}
+    </div>
+
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                mensagem: 'Primeira instância do Vue.js 2'
+            }
+        });
+        console.log(vm);
+    </script>
+</body>
+
+</html>
